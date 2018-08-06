@@ -2,7 +2,7 @@
 A python program that accepts field width and height, penalty area length, penalty area width, penalty cross distance, center circle diameter as input and draws the field automatically.
 
 The reason that the program gets these inputs is the differences between different football fields's dimensions ratio.
-For the purpose of this program that is related to my duty in @mrlspl as a localizer guy(if such thing exists :D), the default inputs are the dimensions of Robocup Standard Platform League's field (you can see the dimensions in SPL rule's book, I did put a screenshut of it).
+For the purpose of this program that is related to my duty in @mrlspl as a localizer guy(if such thing exists :D), the default inputs are the dimensions of Robocup Standard Platform League's field (you can see the dimensions in SPL rule's book, I did put a screenshut of it) but you can put any other logical dimensions.
 
 
 ![Alt text](readmePics/SPLField.jpg?raw=true "SPL Field")
