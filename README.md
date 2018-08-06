@@ -14,7 +14,7 @@ For the purpose of this program that is related to my duty in @mrlspl as a local
 The real output that i'm gonna use for my work is this.
 ![Alt text](readmePics/realField.jpg?raw=true "Real Field")
 
-'W's are white and 'B' are black.
+'W's are white and 'B's are black.
 That's because i want to give it to my lost robot and localize it using different bayesian methods like 
 [this repo](https://github.com/amirhakimnejad/Histogram-filter-for-robot-localization) of mine.
 
