@@ -17,4 +17,18 @@ The real output that i'm gonna use for my work is this.
 That's because i want to give it to my lost robot and localize it using different bayesian methods like [a link](https://github.com/amirhakimnejad/Histogram-filter-for-robot-localization) of mine.
 
 
+And to have a little bit of fun let's add a little color to our field. You can change prints in line 54, 56 and 61 and add a few background color to them like this:
+```Python
+if isEdge(i, j, B, A) or isMidLine(j, A) or isLeftPenaltyBox(i, j, B, E, F) or isRightPenaltyBox(i, j, A, B, E, F) or isPenaltySpot(i, j, A, B, G) or isCircle(i, j, A, B, H) or isCenterSpot(i, j, A, B):
+    print ('\033[107m  ', end='')
+else:
+    print ('\033[42m  ', end='')
+
+for i in range(B):
+for j in range(A):
+    draw(i, j, A, B, E, F, G, H)
+print ('\033[0m\n', end='')
+```
+![Alt text](readmePics/graphicalField.png?raw=true "Graphical Field")
+
 Feel free to ask questions or anything else.
