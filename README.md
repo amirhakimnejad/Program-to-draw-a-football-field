@@ -15,7 +15,7 @@ The real output that i'm gonna use for my work is this.
 ![Alt text](readmePics/realField.jpg?raw=true "Real Field")
 
 'W's are white and 'B's are black.
-That's because i want to give it to my lost robot and localize it using different bayesian methods like 
+That's because i want to give it to my lost robot and localize it using different bayesian methods like
 [this repo](https://github.com/amirhakimnejad/Histogram-filter-for-robot-localization) of mine.
 
 
@@ -27,9 +27,9 @@ else:
     print ('\033[42m  ', end='')
 
 for i in range(B):
-for j in range(A):
-    draw(i, j, A, B, E, F, G, H)
-print ('\033[0m\n', end='')
+    for j in range(A):
+        draw(i, j, A, B, E, F, G, H)
+    print ('\033[0m\n', end='')
 ```
 ![Alt text](readmePics/graphicalField.png?raw=true "Graphical Field")
 
